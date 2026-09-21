@@ -39,7 +39,7 @@ CREATE TABLE `produtos` (
 
 LOCK TABLES `produtos` WRITE;
 /*!40000 ALTER TABLE `produtos` DISABLE KEYS */;
-INSERT INTO `produtos` VALUES (2,'PS4',1500,'Vendido'),(3,'Xbox 360',800,'Vendido'),(4,'Iphone 12',4800,'Vendido'),(5,'PS2',400,'A Venda'),(6,'Notebook Gamer',3500,'A Venda'),(7,'Teclado Gamer',250,'A Venda'),(8,'Mouse Gamer',180,'A Venda');
+INSERT INTO `produtos` VALUES (2,'PS4',1500,'Vendido'),(3,'Xbox 360',800,'Vendido'),(4,'Iphone 12',4800,'Vendido'),(5,'PS2',400,'Vendido'),(6,'Notebook Gamer',3500,'A Venda'),(7,'Teclado Gamer',250,'A Venda'),(8,'Mouse Gamer',180,'A Venda');
 /*!40000 ALTER TABLE `produtos` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -52,4 +52,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2026-09-16 15:47:10
+-- Dump completed on 2026-09-21 16:16:44
